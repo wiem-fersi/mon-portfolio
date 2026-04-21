@@ -1,12 +1,12 @@
 :root {
   /* ── Modifiez ces couleurs pour personnaliser votre portfolio ── */
-  --bg-primary: #0f172a; /* fond sombre */
+  --bg-primary: #14dbcb; /* fond sombre */
   --bg-secondary: #1e293b; /* cartes et sections alternées */
-  --accent-color: #e11d48; /* votre couleur signature — changez-la ! */
-  --accent-light: #a78bfa; /* version plus claire */
+  --accent-color: #e70a3a; /* votre couleur signature — changez-la ! */
+  --accent-light: #96116e; /* version plus claire */
   --text-primary: #f8fafc; /* texte principal */
-  --text-secondary: #94a3b8; /* texte secondaire */
-  --border-color: #334155; /* bordures */
+  --text-secondary: #070707; /* texte secondaire */
+  --border-color: #353e49; /* bordures */
 
   --font-main: "Segoe UI", system-ui, sans-serif;
   --spacing-sm: 1rem; /* 16px */
@@ -16,17 +16,17 @@
 }
 :root {
   /* ── Couleurs principales ── */
-  --bg-primary: #0f172a; /* Fond sombre principal */
+  --bg-primary: #024f7c; /* Fond sombre principal */
   --bg-secondary: #1e293b; /* Fond des cartes */
   --bg-card: #1e293b; /* Fond des éléments en relief */
 
-  --accent-color: #7c3aed; /* Violet — votre couleur signature */
-  --accent-light: #a78bfa; /* Violet clair — pour les textes sur fond sombre */
-  --accent-teal: #0d9488; /* Teal — couleur secondaire */
+  --accent-color: #0cedf5; /* Violet — votre couleur signature */
+  --accent-light: #08f5f5; /* Violet clair — pour les textes sur fond sombre */
+  --accent-teal: #cf1818; /* Teal — couleur secondaire */
 
   --text-primary: #f8fafc; /* Texte principal (blanc cassé) */
-  --text-secondary: #94a3b8; /* Texte secondaire (gris) */
-  --text-muted: #64748b; /* Texte discret */
+  --text-secondary: #c5cedb; /* Texte secondaire (gris) */
+  --text-muted: #566374; /* Texte discret */
 
   --border-color: #334155; /* Couleur des bordures */
 
@@ -142,8 +142,8 @@ ul {
   border-color: var(--accent-color);
 }
 .btn-primary:hover {
-  background-color: #6d28d9;
-  border-color: #6d28d9;
+  background-color: #0cedf5;
+  border-color: #0cedf5;
   transform: translateY(-2px); /* léger soulèvement au survol */
   box-shadow: 0 8px 25px rgba(124, 58, 237, 0.4);
 }
@@ -213,7 +213,7 @@ ul {
 .nav-logo {
   font-size: 1.4rem;
   font-weight: 700;
-  color: var(--text-primary);
+  color: #f37070;
 }
 .nav-logo span {
   color: var(--accent-light);
@@ -292,7 +292,7 @@ ul {
 }
 
 .hero-subtitle {
-  color: var(--accent-light);
+  color: #f37070;
   font-size: 1.1rem;
   font-weight: 500;
   margin-bottom: var(--spacing-xs);
@@ -307,7 +307,7 @@ ul {
 
 .hero-role {
   font-size: 1.3rem;
-  color: var(--accent-teal);
+  color: #f37070;
   font-weight: 600;
   margin-bottom: var(--spacing-sm);
 }
@@ -334,7 +334,7 @@ ul {
   height: 320px;
   object-fit: cover; /* recadre l'image pour remplir le cercle */
   border-radius: 50%; /* cercle parfait */
-  border: 4px solid var(--accent-color);
+  border: 4px solid #f37070;
   box-shadow: 0 0 40px rgba(124, 58, 237, 0.4);
 }
 .about {
@@ -444,7 +444,7 @@ ul {
 .skill-progress {
   height: 100%;
   width: 0; /* démarre à 0, JS l'anime jusqu'à data-level */
-  background: linear-gradient(90deg, var(--accent-color), var(--accent-teal));
+  background: linear-gradient(90deg, var(--accent-color), #f37070);
   border-radius: var(--radius-full);
   transition: width 1.2s ease-out; /* l'animation elle-même */
 }
@@ -637,7 +637,7 @@ textarea.invalid {
 /* Message de succès — caché par défaut */
 .success-message {
   background-color: rgba(5, 150, 105, 0.15);
-  border: 1px solid #059669;
+  border: 1px solid #0da776;
   border-radius: var(--radius-md);
   color: #6ee7b7;
   padding: 1rem;
