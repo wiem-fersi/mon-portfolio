@@ -67,7 +67,7 @@ html {
 
 body {
   font-family: var(--font-main);
-  background-color: var(--bg-primary);
+  background-color: #013a5c;
   color: var(--text-primary);
   line-height: 1.7;
   overflow-x: hidden; /* cache le défilement horizontal indésirable */
